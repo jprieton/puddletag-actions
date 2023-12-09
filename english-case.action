@@ -1,0 +1,76 @@
+{
+  "info": {
+    "name": "English case"
+  },
+  "Func0": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "\\b\\w",
+      "$upper($1)",
+      false
+    ]
+  },
+  "Func1": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "\\b(a|an|the|at|by|for|in|of|on|to|up|and|as|but|or|nor)(\\s|$|\\,|\\.)",
+      "$lower($0)",
+      false
+    ]
+  },
+  "Func2": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "^[A-z]{1}",
+      "$upper($1)",
+      false
+    ]
+  },
+  "Func3": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "((! |\\? |\\()[a-z])?",
+      "$upper($1)",
+      false
+    ]
+  },
+  "Func4": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "strip",
+    "module": "puddlestuff.functions",
+    "arguments": []
+  }
+}

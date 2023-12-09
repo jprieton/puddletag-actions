@@ -1,0 +1,90 @@
+{
+  "info": {
+    "name": "Fix spaces"
+  },
+  "Func0": {
+    "fields": [
+      "title",
+      "artist",
+      "album",
+      "albumartist"
+    ],
+    "func_name": "replace",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "%20",
+      " ",
+      false,
+      false
+    ]
+  },
+  "Func1": {
+    "fields": [
+      "__all"
+    ],
+    "func_name": "replace",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "_",
+      " ",
+      false,
+      false
+    ]
+  },
+  "Func2": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "\\b(\u0021|\\u003f)",
+      "$1 ",
+      false
+    ]
+  },
+  "Func3": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "\\b(\u00a1|\u00bf)",
+      " $1",
+      false
+    ]
+  },
+  "Func4": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "\\s{2,}",
+      " ",
+      false
+    ]
+  },
+  "Func5": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "strip",
+    "module": "puddlestuff.functions",
+    "arguments": []
+  }
+}
