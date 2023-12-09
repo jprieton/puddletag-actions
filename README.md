@@ -1,6 +1,6 @@
 ### English case
 
-Convert to proper title case 
+Convert to proper title case.
 
 - Convert to upper case the first letter of every word in the string
 - Fix lower-cases prepositions
@@ -15,10 +15,14 @@ Convert to proper title case
 
 ### Fix spaces
 
-This fix spaces issues
+This fix spaces issues.
 
 * Replaces "*%20*" and "*_*" by spaces
 * Adds space after "*?*" and "*!*"
 * Adds space before "*¿*" and "*¡*"
 * Replaces multiples spaces to single space
 * Trim the beginning and trailing spaces
+
+### Gapless
+
+Mark the file as gapless using `comment:iTunPGAP` field.

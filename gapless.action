@@ -1,0 +1,15 @@
+{
+  "info": {
+    "name": "Gapless"
+  }, 
+  "Func0": {
+    "fields": [
+      "comment:iTunPGAP"
+    ], 
+    "arguments": [
+      "1"
+    ], 
+    "module": "puddlestuff.functions", 
+    "func_name": "formatValue"
+  }
+}
