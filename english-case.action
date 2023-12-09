@@ -72,5 +72,20 @@
     "func_name": "strip",
     "module": "puddlestuff.functions",
     "arguments": []
+  },
+  "Func5": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "((')[a-z])?",
+      "$lower($0)",
+      false
+    ]
   }
 }

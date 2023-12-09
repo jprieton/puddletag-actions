@@ -6,6 +6,7 @@ Convert to proper title case.
 - Fix lower-cases prepositions
 - Convert to upper case the first letter of the string
 - Convert to upper case the first letter after "*?*", "*!*" and "*(*"
+- Convert to lower case the first letter next to a contraction
 
 **Know issues**:
 

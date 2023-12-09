@@ -41,7 +41,7 @@
     "func_name": "replaceWithReg",
     "module": "puddlestuff.functions",
     "arguments": [
-      "\\b(\u0021|\\u003f)",
+      "\\b(!|\\u003f)",
       "$1 ",
       false
     ]
@@ -81,7 +81,8 @@
       "album",
       "albumartist",
       "title",
-      "artist"
+      "artist",
+      "encodedby"
     ],
     "func_name": "strip",
     "module": "puddlestuff.functions",
