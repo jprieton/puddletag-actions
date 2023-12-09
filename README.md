@@ -26,3 +26,16 @@ This fix spaces issues.
 ### Gapless
 
 Mark the file as gapless using `comment:iTunPGAP` field.
+
+### Spanish case
+
+Convert to proper title case.
+
+- Convert to upper case the first letter of the string
+- Convert to upper case the first letter after "*¿*", "*?*", "*¡*", "*!*" and "*(*"
+
+**Know issues**:
+
+* Sometimes require convert to lower case the string before apply
+* Requires a manual review the result by context
+* Acronyms maybe can converted incorrectly

@@ -1,0 +1,35 @@
+{
+  "info": {
+    "name": "Spanish case"
+  },
+  "Func0": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "^[A-z]{1}",
+      "$upper($1)",
+      false
+    ]
+  },
+  "Func1": {
+    "fields": [
+      "album",
+      "albumartist",
+      "title",
+      "artist"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "((! |\\? |\\(|\u00bf|\u00a1)[a-z])?",
+      "$upper($1)",
+      false
+    ]
+  }
+}
