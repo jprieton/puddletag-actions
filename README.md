@@ -40,3 +40,15 @@ Convert to proper title case.
 * Sometimes require convert to lower case the string before apply
 * Requires a manual review the result by context
 * Acronyms maybe can converted incorrectly
+
+### Remove Remastered
+
+Remove "*Remastered*" from the title and/or album.
+
+- Remove "(*Remastered*)", "(*Remastered 2015*)" and "(*2015 Remastered*)"
+- Also allows square brackets, ie. "[*Remastered*]", "[*Remastered 2015*]" and "[*2015 Remastered*]"
+- Case insensitive
+
+### Copy Artist to Album Artist
+
+Copy the artist field to the album artist field.
