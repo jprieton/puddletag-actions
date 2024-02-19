@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Remove tag that maybe can generate issues"
+  },
+  "Func0": {
+    "fields": [
+      "\u00a9enc"
+    ],
+    "func_name": "remove_fields",
+    "module": "puddlestuff.functions",
+    "arguments": []
+  },
+  "Func1": {
+    "fields": [
+      "rtng"
+    ],
+    "func_name": "remove_dupes",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      false
+    ]
+  }
+}

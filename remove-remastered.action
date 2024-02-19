@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "Remove Remastered"
+  },
+  "Func0": {
+    "fields": [
+      "title",
+      "album"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "(\\[|\\()([0-9]{4}).(remaster(ed|izado))(\\]|\\))?",
+      "",
+      false
+    ]
+  },
+  "Func1": {
+    "fields": [
+      "title",
+      "album"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "(\\[|\\()(remaster(ed|izado)).([0-9]{4})(\\]|\\))?",
+      "",
+      false
+    ]
+  },
+  "Func2": {
+    "fields": [
+      "title",
+      "album"
+    ],
+    "func_name": "replaceWithReg",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "(\\[|\\(){1}(remaster(ed|izado)){1}(\\]|\\)){1}?",
+      "",
+      false
+    ]
+  },
+  "Func3": {
+    "fields": [
+      "title",
+      "album"
+    ],
+    "func_name": "strip",
+    "module": "puddlestuff.functions",
+    "arguments": []
+  }
+}

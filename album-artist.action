@@ -1,0 +1,15 @@
+{
+  "info": {
+    "name": "Album Artist"
+  }, 
+  "Func0": {
+    "fields": [
+      "albumartist"
+    ], 
+    "arguments": [
+      "%artist%"
+    ], 
+    "module": "puddlestuff.functions", 
+    "func_name": "formatValue"
+  }
+}

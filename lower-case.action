@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Lower case title and album"
+  },
+  "Func0": {
+    "fields": [
+      "_selected",
+      "album",
+      "title"
+    ],
+    "func_name": "titleCase",
+    "module": "puddlestuff.functions",
+    "arguments": [
+      "Mixed Case",
+      ""
+    ]
+  }
+}
